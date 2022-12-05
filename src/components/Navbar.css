@@ -1,0 +1,17 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__icon {
+    font-size: 2rem;
+    color: #6900ff;
+}
+.navbar__title {
+    font-size: 2rem;
+    text-align: center;
+    margin: 1rem;
+}
+.navbar__title-color {
+    color: #6900ff;
+}
