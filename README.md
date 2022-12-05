@@ -1,1 +1,1 @@
-# Cryptocurrency-App
+# Cryptocurrency App with React JS
