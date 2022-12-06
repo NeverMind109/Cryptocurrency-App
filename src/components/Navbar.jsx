@@ -6,7 +6,7 @@ import './Navbar.css'
 
 const Navbar = () => {
   return (
-    <Link to="/Cryptocurrency App/">
+    <Link to="/Cryptocurrency-App/">
       <div className='navbar'>
         <FaCoins className='navbar__icon'/>
         <h1 className='navbar__title'>Coin <span className='navbar__title-color'>Search</span></h1>

@@ -19,7 +19,7 @@ const Coins = ({coins}) => {
         </div>
 
         {coins.map((coinItem, idx) => (
-          <Link to={`/Cryptocurrency App/coin/${coinItem.id}`} element={<Coin />} key={coinItem.name + idx}>
+          <Link to={`/Cryptocurrency-App/coin/${coinItem.id}`} element={<Coin />} key={coinItem.name + idx}>
             <CoinItem coinItem={coinItem}/>
           </Link>
         ))}

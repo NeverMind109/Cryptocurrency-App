@@ -26,11 +26,11 @@ function App() {
       <Routes>
         <Route
           exact
-          path="/Cryptocurrency App/"
+          path="/Cryptocurrency-App/"
           element={<Coins coins={coins} />}
         />
-        <Route path="/Cryptocurrency App/coin" element={<Coin />}>
-          <Route path="/Cryptocurrency App/coin:coinId" element={<Coin />} />
+        <Route path="/Cryptocurrency-App/coin" element={<Coin />}>
+          <Route path="/Cryptocurrency-App/coin:coinId" element={<Coin />} />
         </Route>
       </Routes>
     </>
