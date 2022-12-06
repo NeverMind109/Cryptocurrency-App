@@ -30,7 +30,7 @@ function App() {
           element={<Coins coins={coins} />}
         />
         <Route path="/Cryptocurrency App/coin" element={<Coin />}>
-          <Route path=":coinId" element={<Coin />} />
+          <Route path="/Cryptocurrency App/coin:coinId" element={<Coin />} />
         </Route>
       </Routes>
     </>
